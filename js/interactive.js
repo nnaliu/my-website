@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 $(document).scroll(function() {
 	var y = $(this).scrollTop();
-	if (y > 130) {
+	if (y > 80) {
 	    $('.float_logo').fadeIn();
 	} else {
 	    $('.float_logo').fadeOut();
