@@ -32,7 +32,7 @@ nav {
 	position: fixed;
 	right: 0;
 	top: 0;
-	background: black;
+	background-color: rgba(0,0,0,0.5);
 }
 nav a {
 	text-transform: uppercase;
@@ -44,6 +44,10 @@ nav a {
 nav a:hover {
 	color: #FFE361;
 	text-decoration: none;
+}
+nav ul {
+	padding-left: 10px;
+	margin-bottom: 0px;
 }
 nav li {
 	display: inline;
@@ -65,7 +69,7 @@ input[type="submit"] {
 }
 footer {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 0;
     height: 4em;
     width: 100%;
@@ -79,7 +83,7 @@ footer {
 
 .about {
 	width: 560px;
-	height: 300px;
+	/*height: 300px;*/
 	padding: 10px;
 	margin: 120px 40% 0 50%;
 }
@@ -152,15 +156,15 @@ blockquote cite:before {
 	height: 250px;
 	border-radius: 100%;
 	float: left;
-	margin: 0 5% 20px 10%;
+	margin: 0 2% 15px 10%;
 }
 .contact ul {
 	float: left;
-	margin: 0 5% 0 0;
+	margin: 0 5% 20px 0;
 }
 .contact li {
 	list-style: none;
-	font-size: 2em;
+	font-size: 1.5em;
 	
 }
 .contact li a {
